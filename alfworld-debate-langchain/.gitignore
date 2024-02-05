@@ -1,6 +1,2 @@
-# we don't want these files in our repo
-**/.DS_store
-**/.idea
-**/.ipynb_checkpoints
-**/__pycache__
-logs/
+# ignore the log files because they are big
+results/*/*.log
