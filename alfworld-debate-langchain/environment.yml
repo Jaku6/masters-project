@@ -1,0 +1,14 @@
+name: alfworld-debate-env
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy
+  - matplotlib
+  - openai
+  - pip
+  - pip:
+    - langchain==0.0.337
+    - pydantic==1.10.13
+    - google-cloud-aiplatform
+    - tiktoken
